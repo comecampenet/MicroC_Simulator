@@ -24,34 +24,16 @@
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Memory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RegisterList.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CodeZone.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Application.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Controls.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CodeZoneSFML.h">
-      <Filter>Header Files\SFML</Filter>
-    </ClInclude>
-    <ClInclude Include="ControlsSFML.h">
-      <Filter>Header Files\SFML</Filter>
-    </ClInclude>
-    <ClInclude Include="MemorySFML.h">
-      <Filter>Header Files\SFML</Filter>
-    </ClInclude>
-    <ClInclude Include="RegisterListSFML.h">
-      <Filter>Header Files\SFML</Filter>
-    </ClInclude>
-    <ClInclude Include="Compilator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -59,35 +41,20 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RegisterList.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CodeZone.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Application.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Controls.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CodeZoneSFML.cpp">
-      <Filter>Source Files\SFML</Filter>
-    </ClCompile>
-    <ClCompile Include="ControlsSFML.cpp">
-      <Filter>Source Files\SFML</Filter>
-    </ClCompile>
-    <ClCompile Include="MemorySFML.cpp">
-      <Filter>Source Files\SFML</Filter>
-    </ClCompile>
-    <ClCompile Include="RegisterListSFML.cpp">
-      <Filter>Source Files\SFML</Filter>
-    </ClCompile>
-    <ClCompile Include="Compilator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="database" />
   </ItemGroup>
 </Project>

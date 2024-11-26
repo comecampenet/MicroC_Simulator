@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -120,6 +121,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>"C:\Come\Code\7-c++\Perso\MicroC_Simulator\MicroC_Simulator\sqlite3.lib"</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,30 +132,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="CodeZone.h" />
-    <ClInclude Include="CodeZoneSFML.h" />
-    <ClInclude Include="Compilator.h" />
-    <ClInclude Include="Controls.h" />
-    <ClInclude Include="ControlsSFML.h" />
+    <ClInclude Include="Flag.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Memory.h" />
-    <ClInclude Include="MemorySFML.h" />
-    <ClInclude Include="RegisterList.h" />
-    <ClInclude Include="RegisterListSFML.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="sqlite3.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="CodeZone.cpp" />
-    <ClCompile Include="CodeZoneSFML.cpp" />
-    <ClCompile Include="Compilator.cpp" />
-    <ClCompile Include="Controls.cpp" />
-    <ClCompile Include="ControlsSFML.cpp" />
+    <ClCompile Include="Flag.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Memory.cpp" />
-    <ClCompile Include="MemorySFML.cpp" />
-    <ClCompile Include="RegisterList.cpp" />
-    <ClCompile Include="RegisterListSFML.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="sqlite3.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="database" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
