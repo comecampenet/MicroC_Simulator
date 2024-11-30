@@ -19,12 +19,12 @@
     <Filter Include="Source Files\SFML">
       <UniqueIdentifier>{57be534f-0ec3-4f4e-83b8-c33503ad9220}</UniqueIdentifier>
     </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{b05ddb4a-0205-42c5-9fc2-4149d9fd14ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="sqlite3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Register.h">
@@ -36,12 +36,18 @@
     <ClInclude Include="Memory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="Microcontroller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemorySegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="sqlite3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Register.cpp">
@@ -53,8 +59,19 @@
     <ClCompile Include="Memory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="Microcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MemorySegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="database" />
+    <None Include="database">
+      <Filter>db</Filter>
+    </None>
   </ItemGroup>
 </Project>

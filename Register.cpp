@@ -5,17 +5,17 @@ Register::Register(const std::string& _name, uint32_t _size, uint32_t _value)
 {
 }
 
-std::string Register::getName()
+std::string Register::getName() const
 {
 	return name;
 }
 
-uint32_t Register::getSize()
+uint32_t Register::getSize() const
 {
 	return size;
 }
 
-uint32_t Register::getValue()
+uint32_t Register::getValue() const 
 {
 	return value;
 }

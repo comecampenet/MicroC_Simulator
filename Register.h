@@ -13,9 +13,9 @@ public:
 
 	Register(const std::string& _name, uint32_t _size, uint32_t _value);
 
-	std::string getName();
-	uint32_t getSize();
-	uint32_t getValue();
+	std::string getName() const;
+	uint32_t getSize() const;
+	uint32_t getValue() const;
 
 	void setValue(uint32_t _value);
 };

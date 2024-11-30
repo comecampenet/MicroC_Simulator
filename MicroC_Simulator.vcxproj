@@ -135,6 +135,8 @@
     <ClInclude Include="Flag.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Memory.h" />
+    <ClInclude Include="MemorySegment.h" />
+    <ClInclude Include="Microcontroller.h" />
     <ClInclude Include="Register.h" />
     <ClInclude Include="sqlite3.h" />
   </ItemGroup>
@@ -142,6 +144,8 @@
     <ClCompile Include="Flag.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="MemorySegment.cpp" />
+    <ClCompile Include="Microcontroller.cpp" />
     <ClCompile Include="Register.cpp" />
     <ClCompile Include="sqlite3.c" />
   </ItemGroup>
